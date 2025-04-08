@@ -1,0 +1,5 @@
+flask 
+flask-cors 
+httpx 
+clerk-backend-api
+python-dotenv
