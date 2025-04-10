@@ -93,9 +93,9 @@ function clientCode() {
     });
 
     // Use the created users
-    console.log(admin.describe());
-    console.log(customer.describe());
-    console.log(guest.describe());
+    console.log('describe admin:', admin.describe());
+    console.log('describe customer:', customer.describe());
+    console.log('describe guest:', guest.describe());
 
     // This would throw an error
     // const unknown = factory.createUser('unknown');
