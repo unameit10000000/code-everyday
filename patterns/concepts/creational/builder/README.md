@@ -68,9 +68,9 @@ classDiagram
     CarDirector o--> CarBuilder
     CarBuilder --> Car : creates
 
-    note for CarDirector "Provides predefined\nconstruction sequences"
-    note for CarBuilder "Implements building steps\nand provides fluent interface"
-    note for Car "The complex object\nbeing built"
+    note for CarDirector "Predefined construction sequences"
+    note for CarBuilder "Building steps + fluent interface"
+    note for Car "Object being built"
 ```
 
 The construction process with the builder pattern:
